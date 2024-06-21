@@ -798,7 +798,7 @@
 }
 
 
-        /*---Media Query == 560px / Responsive ---*/
+        /*---Media Query == 900px / Responsive ---*/
 
  @media only screen and (max-width: 900px) {
     .nav-button {
@@ -877,24 +877,74 @@
    width: 100%;
  } 
 
+ .scroll-btn {
+  margin-bottom: -50px;
+ }
+
  .about-info, .contact-info {
    width: 100%;
 }
+.about-box {
+  margin-bottom: 40px;
+}
 
-.pro-con {
+
+.about-con{
+  margin-top: -100px;
+ }
+
+ .skill-box .top-header-1 {
+  position: relative;
+  top:-110px;
+ }
+
+
+
+.project-box {
    justify-content: center;
 }
 
-.pro-box {
-   width: 60%;
-}
+
+ .pro-box{
+  width:80%;
+  margin-top: -180px; 
+  height: 80%;
+ }
+
+ .pro-con {
+  gap: 190px;
+ }
+
+ .project-box .top-header-1 {
+  position: relative;
+  top:-150px;
+ } 
 
 
+ .contact-box{
+  margin-top: 125px;
+ }
+
+ .contact-box .top-header-1 {
+  position: relative;
+  top:-20px;
+ }
 
 .ex-sub-title {
-   font-size: 15px;
+   font-size: 15px;   
 }
 
+
+.hidden-2, .hidden-3, .hidden-4, .hidden-5, .hidden-6{
+  transition:all none;
+  transform: none;
+
+}
+ 
+.show-animation-2, .hidden-3, .hidden-4, .hidden-5, .hidden-6 {
+  transition: all none;
+  
+}
    
 
 
@@ -934,6 +984,85 @@
  .input-field{
    width:100%;
  }
+ .scroll-btn {
+  margin-bottom:0px;
+  display: none;
+ }
+ 
+
+ .about-box {
+  margin-bottom: 40px;
+}
+
+
+
+
+ .about-box{
+  margin-top: -70px;
+ }
+
+ .about-con{
+  margin-top: -200px;
+ }
+ 
+
+
+ .skill-box .top-header-1 {
+  position: relative;
+  top:-180px;
+ }
+
+
+
+.project-box {
+   justify-content: center;
+}
+
+
+ .pro-box{
+  width:100%;
+
+  margin-top:-220px;
+  
+ }
+
+ .pro-con {
+  gap: 230px;
+ }
+
+ .project-box .top-header-1 {
+  position: relative;
+  top:-180px;
+ } 
+
+
+ .contact-box{
+  margin-top: -50px;
+ }
+
+ .contact-box .top-header-1 {
+  position: relative;
+  top:50px;
+ }
+
+.ex-sub-title {
+   font-size: 15px;   
+}
+
+
+.hidden-2, .hidden-3, .hidden-4, .hidden-5, .hidden-6{
+  transition:all none;
+  transform: all none;
+
+}
+ 
+.show-animation-2, .hidden-3, .hidden-4, .hidden-5, .hidden-6 {
+  transition: all none;
+  transform: all none;
+  
+}
+   
+ 
 
 
 
