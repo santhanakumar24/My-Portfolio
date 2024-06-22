@@ -465,9 +465,10 @@
  .pro-con {
    display: flex;
    width: 100%;
-   justify-content: space-between;
+   justify-content: center;
    gap: 20px;
    flex-wrap: wrap;
+
  }
 
  .pro-box {
